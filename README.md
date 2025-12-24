@@ -70,3 +70,10 @@ frames[0].save(
 )
 
 print("Saved -> assets/iot_title.gif")
+
+python make_iot_title_gif.py
+git add assets/iot_title.gif
+git commit -m "Add animated RGB title for README"
+git push
+
+![IOT Attack Detection](assets/iot_title.gif)
